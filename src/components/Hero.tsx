@@ -9,6 +9,15 @@ export default function Hero({ profile }: HeroProps) {
   if (!profile) return null;
 
   return (
+    <div className="text-center">
+  <img
+    src="/profile.jpg"
+    alt="Profile"
+    className="w-40 h-40 rounded-full mx-auto mb-4"/>
+
+  <h1 className="text-4xl font-bold">Irfanul Huda</h1>
+</div>
+    <a href="/cv.pdf" download className="bg-blue-600 text-white px-6 py-3 rounded-lg mt-4 inline-block"> Download CV </a>
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="container mx-auto px-6 py-20 relative z-10">
