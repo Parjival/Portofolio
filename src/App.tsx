@@ -62,7 +62,7 @@ function App() {
       <div className="text-center md:text-left">
         <h2 className="text-lg font-semibold">Irfanul Huda</h2>
         <p className="text-slate-400 text-sm">
-          Junior DevOps Engineer | Cloud & Automation Enthusiast
+          Undergrad Student | AI Researcher | DevOps Enthusiast
         </p>
       </div>
 
@@ -76,7 +76,7 @@ function App() {
       {/* Right - Links */}
       <div className="flex gap-4">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/Parjival"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-white transition"
@@ -85,7 +85,7 @@ function App() {
         </a>
 
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="linkedin.com/in/irfanul-huda-434526226"
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-white transition"
@@ -94,7 +94,7 @@ function App() {
         </a>
 
         <a
-          href="mailto:your@email.com"
+          href="mailto:irfan.huda2000@gmail.com"
           className="text-slate-400 hover:text-white transition"
         >
           Email
