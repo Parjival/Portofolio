@@ -81,7 +81,7 @@ export default function Hero({ profile }: HeroProps) {
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-xl transition-all duration-300 hover:scale-105"
               >
-                <Github size={18} className="text-blue-400 group-hover:scale-110 transition-transform" />
+                <Github size={18} className="text-white-400 group-hover:scale-110 transition-transform" />
                 <span className="text-sm font-medium">GitHub</span>
               </a>
             </div>
