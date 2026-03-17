@@ -54,7 +54,7 @@ export default function Hero({ profile }: HeroProps) {
                 className="group flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <Mail size={18} className="text-blue-400 group-hover:scale-110 transition-transform" />
-                <span className="text-sm font-medium">Email</span>
+                <span className="text-base font-semibold text-white tracking-wide">Email</span>
               </a>
 
               <a
@@ -62,7 +62,7 @@ export default function Hero({ profile }: HeroProps) {
                 className="group flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <Phone size={18} className="text-blue-400 group-hover:scale-110 transition-transform" />
-                <span className="text-sm font-medium">Phone</span>
+                <span className="text-base font-semibold text-white tracking-wide">Phone</span>
               </a>
 
               <a
@@ -72,7 +72,7 @@ export default function Hero({ profile }: HeroProps) {
                 className="group flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 rounded-xl transition-all duration-300 hover:scale-105"
               >
                 <Linkedin size={18} className="text-blue-400 group-hover:scale-110 transition-transform" />
-                <span className="text-sm font-medium">LinkedIn</span>
+                <span className="text-base font-semibold text-white tracking-wide">LinkedIn</span>
               </a>
 
               <a
