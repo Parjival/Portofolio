@@ -1,5 +1,6 @@
 import { usePortfolio } from './hooks/usePortfolio';
 import Hero from './components/Hero';
+import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -46,6 +47,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Hero profile={profile} />
+      <AboutMe profile={profile} />
       <Education education={education} />
       <Projects projects={projects} />
       <Skills skills={skills} />
