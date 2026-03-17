@@ -53,13 +53,62 @@ function App() {
       <Certifications certifications={certifications} />
       <Activities activities={activities} />
 
-      <footer className="bg-slate-900 text-white py-8">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-slate-400">
-            Built with React, TypeScript, Tailwind CSS & Supabase
-          </p>
-        </div>
-      </footer>
+     <footer className="bg-slate-900 text-white py-10 border-t border-white/10">
+  <div className="container mx-auto px-6">
+
+    <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+
+      {/* Left - Name & Role */}
+      <div className="text-center md:text-left">
+        <h2 className="text-lg font-semibold">Irfanul Huda</h2>
+        <p className="text-slate-400 text-sm">
+          Junior DevOps Engineer | Cloud & Automation Enthusiast
+        </p>
+      </div>
+
+      {/* Middle - Tech Stack */}
+      <div className="text-center">
+        <p className="text-slate-400 text-sm">
+          Built with React, TypeScript, Tailwind CSS & Supabase
+        </p>
+      </div>
+
+      {/* Right - Links */}
+      <div className="flex gap-4">
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-slate-400 hover:text-white transition"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-slate-400 hover:text-white transition"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="mailto:your@email.com"
+          className="text-slate-400 hover:text-white transition"
+        >
+          Email
+        </a>
+      </div>
+    </div>
+
+    {/* Bottom line */}
+    <div className="mt-8 text-center text-slate-500 text-sm">
+      © {new Date().getFullYear()} Irfanul Huda. All rights reserved.
+    </div>
+
+  </div>
+</footer>
     </div>
   );
 }
