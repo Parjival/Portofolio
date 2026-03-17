@@ -5,7 +5,7 @@ export interface Profile {
   email: string;
   linkedin: string;
   github: string;
-  summary: 'Hi, I am Irfanul Huda. I am currently a Final Year Undergrad Student in CSE at SUST. I like researching about AI/ML topics, learning about the depths of deployment and integrations. Welcome to my Portofolio.';
+  summary: string;
   created_at: string;
   updated_at: string;
 }
